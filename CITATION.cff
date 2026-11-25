@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this module, please cite it and the underlying methods as below."
+title: "sta425_de: DESeq2, edgeR, limma-voom and Wilcoxon DE entrypoints"
+abstract: >-
+  Omnibenchmark DE module with one entrypoint per method. Each takes a raw count
+  table and sample sheet for a two-condition comparison (WT vs snf2) and writes
+  per-gene log2 fold changes, p-values and BH-adjusted p-values in a shared format.
+authors:
+  - given-names: "FIRSTNAME"
+    family-names: "LASTNAME"
+license: MIT
+version: 0.1.0
+references:
+  - type: article
+    title: "Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2"
+    authors: [{family-names: Love, given-names: Michael I.}, {name: "et al."}]
+    journal: Genome Biology
+    year: 2014
+    doi: 10.1186/s13059-014-0550-8
+  - type: article
+    title: "edgeR v4: powerful differential analysis of sequencing data with expanded functionality and improved support for small counts and larger datasets"
+    authors: [{family-names: Chen, given-names: Yunshun}, {name: "et al."}]
+    journal: Nucleic Acids Research
+    year: 2025
+    doi: 10.1093/nar/gkaf018
+  - type: article
+    title: "voom: precision weights unlock linear model analysis tools for RNA-seq read counts"
+    authors: [{family-names: Law, given-names: Charity W.}, {name: "et al."}]
+    journal: Genome Biology
+    year: 2014
+    doi: 10.1186/gb-2014-15-2-r29

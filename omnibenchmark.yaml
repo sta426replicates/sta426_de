@@ -1,0 +1,6 @@
+entrypoints:
+  default: deseq2.R
+  deseq2: deseq2.R
+  edger: edger.R
+  limma_voom: limma_voom.R
+  wilcoxon: wilcoxon.R
